@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of the reset css*/
+
+/*--------------------*/
+
+/* general site CSS container*/
+
+.container{ 
+	width:100%;
+	background-color:white;
+	font-family:arial,helvetica;
+}
+
+.centered{ /*centers all content*/
+	width:1000px;
+	margin:0 auto;
+}
+
+/*---------------------------------*/
+/* start of top bar related styling*/
+/*---------------------------------*/
+
+
+.top-bar{
+	width:100%;
+	height:40px;
+	background-color:white;
+	
+	
+}
+.top-bar ul{
+	display:inline-block;
+	
+}
+.top-bar ul li{
+	float:left;
+	list-style:none;
+	border-right:1px solid gray;
+	font-size:0.8em;
+	padding: 19px 10px 8px 3px ;
+	font-weight:bold;
+	
+	
+	
+}
+.top-bar ul li:Hover{
+	font-weight:bold;
+	font-size:0.9em;
+	padding:18px 10px 5px 3px ;
+	
+	border-bottom:3px solid black
+}
+
+
+.category-bar{
+	width:100%;
+	background-color:#A91717;
+	height:30px;
+	
+	
+}
+
+.location-bar{
+	width:100%;
+	background-color:white;
+	height:30px;
+	
+	
+}
+.search-box{
+	display:inline-block;
+	position:relative;
+	bottom:15px;
+	
+}
+
+
+#sign-in {
+	display:inline-block;
+	padding:5px 15px 5px 15px;
+	position:relative;
+	bottom:10px;
+	font-weight:bold;
+}
+
+#logo{
+	float:left;
+	padding-top:10px;
+	padding-bottom:4px;
+	padding-right:5px;
+	padding-left:2px;
+	border-right: 1px solid #B4B4B4;
+	
+}
+/*----------------------------*/
+/* end top bar related styling*/
+/*----------------------------*/
+/*----------------------------*/
+/* start  bar related styling*/
+/*----------------------------*/
+.news-bar{
+	background-color:#bb1919;
+	font-family:arial,helvetica;
+	width:100%;
+	height:60px;
+	
+}
+
+
+.news-bar p{
+	color:white;
+	font-size:2.5em;
+	padding-top:10px;
+	
+}
+
+.category-bar{
+	color:white;
+}
+
+.category-bar{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	
+}
+
+.category-bar ul li{
+	float:left;
+	font-family:arial;
+	font-size:0.9em;
+	padding:8px 10px 8px 2px;
+	border-right:1px solid red;
+	
+}
+
+.category-bar ul li:Hover{
+	font-weight:bold;
+	font-size:1em;
+	border-bottom:4px solid white;
+	padding:6px 10px 4px 1px;
+	
+}
+
+.location-bar{
+	
+	padding:0;
+	list-style:none;
+	
+}
+.location-bar ul li{
+	float:left;
+	font-family:arial;
+	font-size:0.8em;
+	padding:8px 10px 8px 2px;
+}
+.location-bar ul li:Hover{
+	font-weight:bold;
+	font-size:0.9em;
+	border-bottom:5px solid white;
+	padding:5px 7px 5px 1px;
+	border-bottom:3px solid black;
+
+}
+
+.content {
+	background-color:white;
+	height:auto;
+}
+.content h1{
+	text-decoration:underline;
+	color:#b4b4b4;
+	font-size:1.5em;
+	width:200px;
+	padding:0 10px 5px 2px;
+}
+.content p{
+	color:grey;
+	font-size:1em;
+	padding:5px 10px 15px 2px;
+	width:200px;
+}
+.content img{
+	float:right;
+	width:300px;
+	height:auto;
+	position:relative;
+	right:500px;
+	bottom:70px;
+}
+
+.content a{
+	padding:3px;
+	text-decoration:none;
+	color:grey;
+	
+	
+	
+}
+.content a:hover{
+	text-decoration:underline;
+}
+#listtitle{
+	padding:5px 10px 10px 2px;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+.watch-listen{
+	float:right;
+	position:relative;
+	bottom:210px;
+	font-family:arial;
+	border-left: 1px solid grey;
+}
+
+.watch-listen h2{
+	padding:10px 10px 10px 15px;
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:0.9em;
+	
+}
+.watch-listen p{
+	margin-left:10px;
+	color:white;
+	background:red;
+	padding:5px;
+}	
+.watch-listen p:hover{
+	color:black;
+	background:red;
+	font-weight:bold;
+	
+}
